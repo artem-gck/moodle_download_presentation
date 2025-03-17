@@ -1,7 +1,7 @@
 (() => {
     window.require = null;
     window.define = null;
-
+    console.log('starting');
     const filename = document.querySelector("h1")?.innerText?.trim() || "безымянный.pdf";
 
     const script = document.createElement("script");
